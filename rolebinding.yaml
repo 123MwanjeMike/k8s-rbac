@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: app-dev-rolebinding
+  namespace: dev-env
+subjects:
+- kind: ServiceAccount
+  name: app-dev
+roleRef:
+  kind: Role
+  name: admin
