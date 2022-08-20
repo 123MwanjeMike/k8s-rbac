@@ -1,2 +1,2 @@
 # k8s-rbac
-Setting up Kubernetes role based access control
+A list of Kubernetes resources for setting up of role-based access control in the article [Set up Kubernetes role based access control](https://blog.mikemwanje.dev/set-up-kubernetes-role-based-access-control)
